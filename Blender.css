@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/004/158/687/large/gleb-alexandrov-planet-lava-01.jpg?1480924720");
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+h1 {
+    color: white;
+    font-family: "Lexend Mega";
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.button-download {
+    background: #28F3DA;;
+    border-color: #28F3DA;
+    border-radius: 12px;
+    margin-left: 41.6%;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    font-family: "Coda";
+    font-size: 23px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #1a1919;
+}
+
+
+
+.button-download:hover,
+.button-download:active {
+    color: white;
+    background: #85FFF0;
+    box-shadow: 0 4px 8px 0 rgb(53, 53, 53), 0 6px 20px 0 rgba(0, 0, 0, 0.514);
+}
+
+#bgcolor1 {
+    margin-top: 150px;
+    background-color: #292929;
+    /* background-color: white; */
+    width: 100%;
+    height: 580px;
+}
+
+#bgcolor2 {
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/011/740/181/large/gleb-alexandrov-v18-01.jpg?1531162162");
+    /* background-color: white; */
+    width: 100%;
+    height: 580px;
+    float: left;
+
+    transform: scaleX(-1);
+}
+
+#bgcolor2 > div {
+    transform: scaleX(-1);
+    margin-left: 100px;
+    margin-top: 100px;
+    color: #292929;
+    width: 400px;
+    font-family: 'Sawarabi Gothic';
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+
+
+#main {
+    margin-top: 150px;
+}
+
+
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1a1919;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .left_links {
+    float: left;
+  }
+
+  .right_links {
+      float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Aldrich';
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(53, 53, 53);
+  }
+  
+  .active {
+    background-color: #28F3DA;
+    color: black;
+  }
+
+.image1 {
+    height: 500px;
+    width: 600px;
+    background-image: url('https://cdna.artstation.com/p/assets/images/images/011/740/220/large/gleb-alexandrov-01-3b.jpg?1531162295');
+}
+
+
+
+.info {
+    color: white;
+    margin-top: 50px;
+    margin-left: 100px; 
+    /* border: 2px white solid; */
+    width: 400px;
+    font-family: 'Sawarabi Gothic';
+    font-size: 20px;
+    border-radius: 12px;
+    padding: 10px;
+
+    display: inline-block;
+    vertical-align: middle;
+    text-align: justify;
+}
+
+.info > h2 {
+    margin-bottom: 0px;
+}
+
+.content {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+iframe {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 80px;
+    border-radius: 12px;
+    width: 640px;
+    height: 360px;
+}
+
+.button {
+    background: #28F3DA;;
+    border-color: #28F3DA;
+    border-radius: 12px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    font-family: "Coda";
+    font-size: 23px;
+}
+
+.button:hover,
+.button:active {
+    color: white;
+    background: #85FFF0;
+    box-shadow: 0 4px 8px 0 rgb(53, 53, 53), 0 6px 20px 0 rgba(0, 0, 0, 0.514);
+}
+
+
